@@ -19,7 +19,7 @@ pipeline {
     }
     post {
         always {
-            emailext body: 'Ran successfully', subject: 'Sample Mail ', to: 'pugals@976@gmail.com'
+            emailext body: 'Ran successfully', subject: 'Sample Mail ', to: 'pugals976@gmail.com'
         }
     }
 
